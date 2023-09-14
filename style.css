@@ -3,12 +3,22 @@
     padding: 0;
 
 }
-
+body{
+    height: 300px;
+}
 .ni{
-    padding: 5px;
+    width: 150px;
+    padding: 15px;
     margin: 5px 10px;
     cursor: pointer;
     background-color: orange;
+    font-size: 30px;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 40px;
+    position: relative;
+    left:130px;
+    top: 30px;
 }
 /*for js*/
 .anim{
@@ -18,29 +28,31 @@
 /*for js*/
 .cont{
     background-color: black;
+   
 
 }
 .ho:hover{
 background-color: blue;
 }
 input{
-    margin-top: 8px;
-    width: 140px;
-    height: 30px;
+    margin-top: 35px;
+    width: 300px;
+    height: 50px;
     border: none;
     box-shadow: 2px 2px 10px gray;
     position: relative;
-   left: 5px;
+   left: 22px;
    border-radius: 10px;
     text-align: end;
     border: none;
-  
+  font-size: 30px;
 }
 .container{
+    
    margin: 0 auto;
-  
-    width: 150px;
-    height: 210px;
+   font-size: 15px;
+    width: 350px;
+    height: 450px;
     border: 1px solid black;
     border-radius: 5px;
     background-color: orange;
@@ -49,7 +61,8 @@ input{
 }
 .bl{
     width: 25px;
-    padding: 5px;
+    padding: 25px;
+    font-size: 15px;
     margin: 3px;
     box-shadow: 2px 2px 5px gray;
     transition: all ease 1s;
@@ -65,7 +78,7 @@ justify-content: space-around;
 
 }
 .btn{
-    margin-top: 20px;
+    margin-top: 36px;
 }
 .btn .bl{
     display: flex;
