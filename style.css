@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.ni{
+    padding: 5px;
+    margin: 5px 10px;
+    cursor: pointer;
+    background-color: orange;
+}
+/*for js*/
+.anim{
+    background-color: black;
+    color: aqua;
+}
+/*for js*/
+.cont{
+    background-color: black;
+
+}
+.ho:hover{
+background-color: blue;
+}
+input{
+    margin-top: 8px;
+    width: 140px;
+    height: 30px;
+    border: none;
+    box-shadow: 2px 2px 10px gray;
+    position: relative;
+   left: 5px;
+   border-radius: 10px;
+    text-align: end;
+    border: none;
+  
+}
+.container{
+   margin: 0 auto;
+  
+    width: 150px;
+    height: 210px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: orange;
+    border: none;
+    box-shadow: 5px 5px 10px gray;
+}
+.bl{
+    width: 25px;
+    padding: 5px;
+    margin: 3px;
+    box-shadow: 2px 2px 5px gray;
+    transition: all ease 1s;
+}
+.bl:hover{
+    background-color: black;
+    color: white;
+   
+}
+.row{
+display: flex;
+justify-content: space-around;
+
+}
+.btn{
+    margin-top: 20px;
+}
+.btn .bl{
+    display: flex;
+    
+}
+.pins{
+    margin-top: 30px;
+}

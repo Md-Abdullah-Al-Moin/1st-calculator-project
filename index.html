@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="night">
+     <button class="ni" onclick="change()">Day</button>
+    </div>
+    <div class="container">
+        <div class="calculator">
+            <label for="text"></label>
+            <input type="text" id="text" name="pin" value="0" placeholder="0">
+        </div>
+        <div class="btn">
+            <div class="row p1 buttons">
+                <button class="bl" id="btn" onclick="cal(this.value)" value="7">7</button>
+            <button class="bl" id="btn" onclick="cal(this.value)" value="8">8</button>
+            <button class="bl" id="btn" onclick="cal(this.value)" value="9">9</button>
+            <button class="bl" id="btn" onclick="cal(this.value)" value="+">+</button>
+            </div>
+            <div class="row p2 buttons">
+                <button class="bl" onclick="cal(this.value)" value="4">4</button>
+            <button  class="bl"onclick="cal(this.value)" value="5">5</button>
+            <button class="bl" onclick="cal(this.value)" value="6">6</button>
+            <button class="bl" onclick="cal(this.value)" value="-">-</button>
+            </div>
+            <div class="row p3 buttons">
+                <button class="bl" onclick="cal(this.value)" value="1">1</button>
+            <button class="bl" onclick="cal(this.value)" value="2">2</button>
+            <button class="bl" onclick="cal(this.value)" value="3">3</button>
+            <button class="bl" onclick="cal(this.value)" value="*">*</button>
+            </div>
+            <div class="row p4 buttons">
+                <button class="bl" onclick="cleart()">c</button>
+            <button class="bl" onclick="cal(this.value)" value="0">0</button>
+            <button class="bl" onclick="calculate()">=</button>
+            <button class="bl" onclick="cal(this.value)" value="/">/</button>
+            </div>
+        </div>
+    </div>
+  
+   <script src="script.js"></script>
+</body>
+</html>
